@@ -1,7 +1,7 @@
 # Text Sentiment Classification
 Authors: Yamane El-Zein, Camila Andrea González Williamson and Luis Emmanuel Medina Ríos.
 
-**For the complete report, please refer to the file Text_Sentiment_Classification.pdf**
+**For the complete report, please refer to the file *Text_Sentiment_Classification.pdf***
 
 ## Disclaimer
 
