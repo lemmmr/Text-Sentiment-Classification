@@ -14,9 +14,9 @@ mkdir final
 #		getting all characters to lowercase
 #		deleting all double blank spaces
 echo "Loading train_pos..."
-cat data/train_pos.txt | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' | sed -e 's/^/__label__1 /g' > proc/positive_labeled_FT.txt
+cat data/train_pos_full.txt | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' | sed -e 's/^/__label__1 /g' > proc/positive_labeled_FT.txt
 echo "Loading train_neg..."
-cat data/train_neg.txt | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' | sed -e 's/^/__label__-1 /g' > proc/negative_labeled_FT.txt
+cat data/train_neg_full.txt | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' | sed -e 's/^/__label__-1 /g' > proc/negative_labeled_FT.txt
 echo "Loading test data..."
 cat data/test_data.txt | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' | sed -e 's/^[^,]*,//' >  proc/test_data.txt
 
