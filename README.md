@@ -1,6 +1,8 @@
 # Text Sentiment Classification
 Authors: Yamane El-Zein, Camila Andrea González Williamson and Luis Emmanuel Medina Ríos.
 
+**For the complete report, please refer to the file Text_Sentiment_Classification.pdf**
+
 ## Disclaimer
 
 The corresponding code as well as the report in this repository was developed by **Yamane El-Zein**, **Camila Andrea González Williamson** and **Luis Emmanuel Medina Ríos** from November 2016 to December 2016 for the course Pattern Classification and Machine Learning at EPFL, Switzerland.
@@ -8,6 +10,7 @@ The corresponding code as well as the report in this repository was developed by
 ## Abstract
 
 We discuss our findings for the Pattern Classification and Machine Learning project on text sentiment classification. Our work involves three main steps: a brief analysis of the text data, preprocessing of the text data, and testing different variations of text classification methods. These methods include the bag of words method, two word embeddings techniques, namely Word2Vec and GloVe, and finally the FastText method. We describe in detail all tested methods and compare their results. In the end, we find that an ensemble of 200 FastText classifiers produces the best results.
+
 
 ## How it works
 **Note:** the code was tested on MacOS 
