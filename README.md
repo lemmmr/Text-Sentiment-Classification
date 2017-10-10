@@ -7,8 +7,7 @@ The corresponding code as well as the report in this repository was developed by
 
 ## Abstract
 
-In this project, we discuss our findings for the PCML project on text sentiment classification. Our work involves three
-main steps: a brief analysis of the text data, preprocessing of the text data, and testing different variations of text classification methods. These methods include the bag of words method, two word embeddings techniques, namely Word2Vec and GloVe, and finally the FastText method. We describe in detail all tested methods and compare their results. In the end, we find that an ensemble of 200 FastText classifiers produces the best results.
+We discuss our findings for the Pattern Classification and Machine Learning project on text sentiment classification. Our work involves three main steps: a brief analysis of the text data, preprocessing of the text data, and testing different variations of text classification methods. These methods include the bag of words method, two word embeddings techniques, namely Word2Vec and GloVe, and finally the FastText method. We describe in detail all tested methods and compare their results. In the end, we find that an ensemble of 200 FastText classifiers produces the best results.
 
 ## How it works
 
